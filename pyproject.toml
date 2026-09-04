@@ -1,0 +1,19 @@
+[project]
+name = "merge-fit"
+version = "0.1.0"
+description = "Merge two sequential activity files in the FIT format into one activity file"
+readme = "README.md"
+authors = [{ name = "Metin Bektas", email = "git@methbkts.com" }]
+requires-python = ">=3.14"
+license = "MIT"
+dependencies = ["fit-tool>=0.9.16", "fitparse>=1.2.0"]
+
+[project.scripts]
+merge-fit = "merge_fit.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = ["ruff>=0.16.6"]
