@@ -1,14 +1,14 @@
 version = 1
-revision = 3
+revision = 5
 requires-python = ">=3.14"
 
 [[package]]
 name = "fit-tool"
-version = "0.9.16"
+version = "0.10.0"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/fc/4f/be06a443553f5e74b4e9360724aaf41d0d09dceb0bc69d8faf3fe0f398f0/fit_tool-0.9.16.tar.gz", hash = "sha256:716b75b2fdfc66ca7b82df65f750c1427fd984c558284753f43e2bf8d2188f61", size = 300961, upload-time = "2026-08-05T04:06:48.023Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/78/1f/a1956e34f7bb38fb5353f587f63b6763790dbb78c74bf0bcd0e182291b49/fit_tool-0.10.0.tar.gz", hash = "sha256:3537c8f424d295782eacd71b74db784839147b5ad030f3d674804483123fc3ea", size = 333989, upload-time = "2026-11-20T10:47:26.392Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/2f/4f/f0b1bfbc260007870aa0b05e07bdcdebc6080bfbc52dd680011ab0daa44b/fit_tool-0.9.16-py3-none-any.whl", hash = "sha256:3403c61663cc205da101a9952edcdc31cf9634dce2eb5c12a397eb24cf4aacf0", size = 497174, upload-time = "2026-08-05T04:06:46.48Z" },
+    { url = "https://files.pythonhosted.org/packages/c8/8c/1c3ac9d673dbcbee0c7cd8cdfe151aa91fc56d3673d1d4f7f97abdeb30a4/fit_tool-0.10.0-py3-none-any.whl", hash = "sha256:db40769827c8982c3a072e1a9e898db47fc6ba6993ac6421f8dee6d4c8a1fec5", size = 541632, upload-time = "2026-11-20T10:47:24.683Z" },
 ]
 
 [[package]]
